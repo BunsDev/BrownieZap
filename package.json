@@ -1,0 +1,19 @@
+{
+  "name": "brownie-zap",
+  "version": "1.0.0",
+  "description": "Zapper contract, using Brownie.",
+  "main": "index.js",
+  "repository": "https://github.com/BunsDev/BrownieZap.git",
+  "author": "Buns <bunsthedev@gmail.com>",
+  "license": "MIT",
+  "scripts": { 
+    "flatten": "truffle-flattener contracts/Zapper.sol > contracts/flats/Zapper_flat.sol"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "truffle-flattener": "^1.6.0",
+    "truffle-hdwallet-provider-privkey": "^0.3.0"
+  }
+}
